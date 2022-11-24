@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+}
+.header {
+    max-width: 770px;
+    height: 82px;
+    margin: auto;
+    display: flex;
+    background: rgba(112, 255, 0, 0.09);
+}
+.main {
+max-width: 770px;
+height: 670px;
+margin: auto;
+border: 1px solid rebeccapurple;
+}
+
+#root {
+  
+}
+
+.menu {
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #003399;
+
+    justify-content: end;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    
+}
+.men {
+ 
+    text-decoration: none;
+    width: 568px;
+}
+
+.logo {
+    width: 199px;
+    height: 82px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(240, 14, 14, 0.1);
+}
+
+/* MAIN */
+
+.main {
+    background: rgba(210, 0, 164, 0.1) 10%;
+    background: rgba(210, 0, 164, 0.1) 10%;
+
+}                            
+.count {
+    max-width: 585px;
+    height: 318px;
+    margin-top: 39px;
+    margin-left:93px;
+    margin-right: 92px;
+    text-align: center;
+    background: rgba(23, 10, 10, 0.09);
+    color: #F27C0F;
+        font-family: 'Gilroy';
+        font-style: normal;
+    font-weight: 500;
+    font-size: 288px;
+    line-height: 339px;
+    /* identical to box height */
+
+    text-align: center;
+}
+.btn {
+    display: flex;
+    margin: auto;
+    margin-top: 12px;
+    justify-content: space-around;
+    background: rgba(21, 101, 147, 0.1);
+    max-width: 742px;
+    height: 116px;
+    align-items: center;
+}
+
+.btn1 {
+    height: 58px;
+width: 200px;
+left: 365px;
+top: 481px;
+border-radius: 4px;
+font-family: Gilroy;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    background: #003399;
+border-radius: 4px;
+}
+.btn2 {
+    height: 58px;
+    width: 200px;
+    left: 620px;
+    top: 481px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;    
+    border-radius: nullpx;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #F27C0F;
+border-radius: 4px;
+        
+    justify-content: space-around;
+}
+.btn3 {
+    height: 58px;
+width: 200px;
+left: 365px;
+top: 481px;
+border-radius: 4px;
+font-family: Gilroy;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    background: #E5E5E5;
+border-radius: 4px;
+}
+
+/* FOOTER */
+
+.footer {
+    border: 1px solid brown;
+    max-width: 770px;
+    height: 76px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.parthners {
+    display: flex;
+        gap:30px;
+        margin-left: 12px;
+        font-family: Gilroy;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+height: 40px;
+width: 361px;
+left: 459px;
+top: 786px;
+border-radius: 0px;
+align-items: center;
+background: rgba(130, 19, 19, 0.2);
+
+}
+.intocode {
+    margin-left: 133px;
+    height: 37px;
+width: 182px;
+left: 923px;
+top: 786px;
+border-radius: 0px;
+display: flex;
+align-items: center;
+font-family: Gilroy;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+background: rgba(196, 196, 196, 0.4);
+display: flex;
+justify-content: end;
+
+
+}
+
+.parthners div:first-child {
+    margin-left: 2px;
+}
+
+.tex {
+    width: 165px;
+    position: absolute;
+}
